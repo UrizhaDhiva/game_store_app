@@ -16,8 +16,8 @@ class MyApp extends StatelessWidget {
       title: 'Game Store',
       theme: ThemeData(
         primarySwatch: Colors.indigo,
-        scaffoldBackgroundColor: Colors.blue[50], // soft blue background
-        // use CardThemeData because some Flutter SDKs expect CardThemeData type
+        scaffoldBackgroundColor: Colors.blue[50], 
+        
         cardTheme: const CardThemeData(
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.all(Radius.circular(16)),
